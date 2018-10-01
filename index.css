@@ -86,7 +86,7 @@ li {
 .div-title {
   text-align: center;
   font-size: 1.7em;
-  margin-bottom: 1.7em;
+  margin-bottom: 1em;
 }
 
 #meet-the-blue-view,.us-vs-them, #who-we-are  {
@@ -102,9 +102,13 @@ li {
 .intro-image {
   float: left;
   height: 23vh;
-  width: 13vw;
-  border: 2px solid;
+  width: 20%;
+  /* border: 2px solid; */
   margin: 1%;
+  background-image: url('img/img2.jpg');
+  /* background-position: center; */
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
@@ -113,6 +117,17 @@ li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 3fr;
+}
+
+.us-vs-them {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 3fr;
+}
+
+.compare-subjects {
+  text-align: center;
+  margin-bottom: 5%;
 }
 
 .compare {
@@ -125,15 +140,21 @@ li {
   grid-template-rows: repeat(4, 1fr);
 }
 
+.compare-contrast li {
+  color: black;
+}
+
 .red {
   background-color: red;
+  /* opacity: .7; */
 }
 
 .green {
   background-color: green;
+  /* opacity: .7; */
 }
 
-/* Part 5 */
+/* Part 4 */
 .persons {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -148,11 +169,6 @@ li {
   float: left;
   border-radius: 50%;
   margin-right: 10px;
-}
-
-.sign-up {
-  /* Resize and use percentage */
-  height: 40px;
 }
 
 footer {
