@@ -60,7 +60,7 @@ li {
 /* Content Wrapper */
 .wrapper {
   display: grid;
-  grid-template-rows: 1fr 1fr .8fr .8fr;
+  grid-template-rows: 1.15fr 1fr .8fr .8fr;
   background-color: #EEEEEE;
   /* padding-top: 4%; */
 }
@@ -71,14 +71,14 @@ li {
   background-size: 120vw 106%;
   background-repeat: no-repeat;
   background-position: top;
-  padding-left: 6%;
+  padding-left: 4%;
 }
 
 .motto {
-  font-size: 260%;
+  font-size: 280%;
   color: #1D3942;
   font-weight: bold;
-  margin-top: 20%;
+  margin-top: 22%;
 }
 
 /* Part 2 */
@@ -212,4 +212,11 @@ footer {
   text-align: center;
   background-color: white;
   padding: 3%;
+}
+
+
+#newLi {
+  opacity: .0;
+  font-size: 0;
+  color: #92D5E6;
 }
