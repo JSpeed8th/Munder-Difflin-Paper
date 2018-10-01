@@ -8,6 +8,7 @@
 * {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -66,14 +67,11 @@ li {
 
 /* Part 1 */
 .main-image {
-  /* text-align: center; */
   background-image: url('img/main-image2.jpg');
-  background-size: 120vw 100%;
-  /* width: 100vw; */
+  background-size: 120vw 106%;
   background-repeat: no-repeat;
   background-position: top;
   padding-left: 6%;
-  /* padding-bottom: 2%; */
 }
 
 .motto {
@@ -170,13 +168,45 @@ li {
 }
 
 .img {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   background-color: gray;
   float: left;
   border-radius: 50%;
   margin-right: 10px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 1% 2%;
 }
+
+.person1 .img {
+  background-image: url(https://vignette.wikia.nocookie.net/theoffice/images/c/cd/Dwight_Schrute.jpg/revision/latest?cb=20110105114630);
+}
+
+.person2 .img {
+  background-image: url(https://vignette.wikia.nocookie.net/theoffice/images/8/8b/Boob.png/revision/latest?cb=20150802210941);
+}
+
+.person3 .img {
+  background-image: url(https://i.imgflip.com/1hdhwi.jpg);
+}
+
+.person4 .img {
+  background-image: url(http://chriscrespo.com/wp-content/uploads/2016/01/jim-the-office-learning-of-michaels-betrayal-300x207.jpg);
+}
+
+#subscribe {
+  background-color: #92D5E6;
+  text-align: center;
+}
+
+#subscribe p, form {
+  display: inline-block;
+  padding: .5%;
+}
+
+
 
 footer {
   text-align: center;
