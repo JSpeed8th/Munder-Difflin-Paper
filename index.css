@@ -142,15 +142,19 @@ li {
 
 .compare-contrast li {
   color: black;
+  margin: 1.5% 5%;
+  text-align: center;
+  padding: 5%;
+  border-radius: 10px;
 }
 
 .red {
-  background-color: red;
+  background-color: #FF9B85;
   /* opacity: .7; */
 }
 
 .green {
-  background-color: green;
+  background-color: #C2EABD;
   /* opacity: .7; */
 }
 
@@ -174,4 +178,5 @@ li {
 footer {
   text-align: center;
   background-color: white;
+  padding: 3%;
 }
