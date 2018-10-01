@@ -8,7 +8,7 @@ var newLi = document.getElementById('newLi');
 title.addEventListener('mouseover', function() {
   title.style.transition = '1s';
   title.style.color = '#1D3942';
-  title.innerHTML = 'hello world';
+  title.innerHTML = 'hello world :-)';
 });
 
 title.addEventListener('mouseout', function() {
