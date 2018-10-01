@@ -214,9 +214,18 @@ footer {
   padding: 3%;
 }
 
+#titleInFooter {
+  color: #92D5E6;
+}
+
 
 #newLi {
   opacity: .0;
   font-size: 0;
   color: #92D5E6;
+}
+
+#dummyLink {
+  opacity: .0;
+  font-size: 0;
 }
