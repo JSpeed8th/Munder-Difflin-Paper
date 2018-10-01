@@ -23,8 +23,8 @@ window.addEventListener('scroll', function() {
   var scrolled = window.scrollY;
   console.log(scrolled);
   if (scrolled >= 509) {
-    newLi.style.transition = '1.5s';
     newLi.style.fontSize = '1em';
+    newLi.style.transition = '1s';
     newLi.style.opacity = '1';
   } else if(scrolled < 509) {
     newLi.style.fontSize = '0';
