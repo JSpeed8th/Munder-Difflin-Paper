@@ -22,11 +22,11 @@ title.addEventListener('mouseout', function() {
 window.addEventListener('scroll', function() {
   var scrolled = window.scrollY;
   console.log(scrolled);
-  if (scrolled >= 645) {
+  if (scrolled >= 509) {
     newLi.style.transition = '1.5s';
     newLi.style.fontSize = '1em';
     newLi.style.opacity = '1';
-  } else if(scrolled < 645) {
+  } else if(scrolled < 509) {
     newLi.style.fontSize = '0';
     newLi.style.opacity = '.0';
   }
