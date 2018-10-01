@@ -13,7 +13,8 @@
 body {
   background-color: white;
   /* padding: 0 7.0%; */
-  font-family: 'futura';
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Nunito', sans-serif;
 }
 
 a {
@@ -28,7 +29,7 @@ a {
 }
 
 .title {
-  color: #009FDF;
+  color: #92D5E6;
   border-right: 1px dotted;
   padding: .5% 0;
   text-align: center;
@@ -78,8 +79,8 @@ li {
 .motto {
   font-size: 260%;
   color: #1D3942;
-  /* color: #009FDF; */
-  margin-top: 26%;
+  font-weight: bold;
+  margin-top: 20%;
 }
 
 /* Part 2 */
@@ -87,6 +88,7 @@ li {
   text-align: center;
   font-size: 1.7em;
   margin-bottom: 1em;
+  font-weight: bold;
 }
 
 #meet-the-blue-view,.us-vs-them, #who-we-are  {
@@ -133,6 +135,7 @@ li {
 .compare {
   grid-column-start: 1;
   grid-column-end: 4;
+  margin: 0;
 }
 
 .compare-contrast {
@@ -163,7 +166,7 @@ li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-row-gap: 15px;
+  grid-row-gap: 20px;
 }
 
 .img {
