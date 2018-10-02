@@ -244,18 +244,54 @@ footer {
   font-size: 0;
 }
 
-@media (min-width: 768px) {
-  /* .motto {
-    font-size: 250%;
-    color: #1D3942;
-    font-weight: bold;
-    margin-top: 30%;
-    text-align: center;
-  } */
+@media only screen and (max-width: 780px) {
 
-  /* .wrapper {
-    display: grid;
-    grid-template-rows: .5fr 1fr .8fr .8fr;
-    background-color: #EEEEEE;
-  } */
+  .wrapper {
+    grid-template-rows: .4fr .8fr .5fr .8fr;
+  }
+
+  .motto {
+    margin-top: 4em;
+  }
+
+  .persons p {
+    margin: 0 5%;
+  }
 }
+
+@media only screen and (max-width: 500px) {
+
+  .wrapper {
+    grid-template-rows: .4fr .8fr .5fr .8fr;
+  }
+
+  .motto {
+    font-size: 30px;
+    margin-top: 8em;
+  }
+
+  .intro-image {
+    float: none;
+    height: 25vh;
+    width: 80%;
+    margin: 5% auto;
+  }
+
+  .persons {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 25px;
+  }
+
+  .persons p {
+    text-align: center;
+  }
+  .img{
+    width: 7em;
+    height: 7em;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+};
