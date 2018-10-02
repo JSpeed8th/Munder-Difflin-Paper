@@ -214,6 +214,14 @@ footer {
   padding: 3%;
 }
 
+#icons {
+  margin-top: 1em;
+}
+
+#icons li{
+  font-size: 2em;
+}
+
 #rightsReserved {
   font-size: .5em;
   font-weight: bold;
